@@ -1,6 +1,6 @@
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { forwardRef, useRef, useMemo, useLayoutEffect } from 'react';
-import { Color, Mesh, ShaderMaterial, Vector2 } from 'three';
+import { Color, Mesh, ShaderMaterial } from 'three';
 
 const hexToNormalizedRGB = (hex: string): [number, number, number] => {
     hex = hex.replace('#', '');
@@ -129,7 +129,7 @@ const Silk = ({ speed = 5, scale = 1, color = '#7B7481', noiseIntensity = 1.5, r
     );
 
     return (
-        <Canvas dpr={[1, 2]} frameloop="always" gl={{ title: "Silk Background" }}>
+        <Canvas dpr={[1, 2]} frameloop="always">
             <SilkPlane ref={meshRef} uniforms={uniforms} />
         </Canvas>
     );
