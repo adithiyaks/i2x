@@ -70,7 +70,7 @@ const About = () => {
                             <div className="absolute left-0 top-1.5 bottom-0 w-0.5 bg-white/30 shadow-[0_0_10px_rgba(255,255,255,0.4)] rounded-full" />
 
                             {/* White Glowing Node */}
-                            <span className="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-obsidian border-2 border-white/60 z-20 flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)]">
+                            <span className="absolute -left-[7px] top-0 w-4 h-4 rounded-full bg-obsidian border-2 border-white/60 z-20 flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)]">
                                 <span className="w-2 h-2 bg-white rounded-full shadow-[0_0_10px_white]" />
                             </span>
 
@@ -93,8 +93,8 @@ const About = () => {
                             <div className="absolute left-0 top-1.5 bottom-0 w-0.5 bg-white/30 shadow-[0_0_10px_rgba(255,255,255,0.4)] rounded-full" />
 
                             {/* White Glowing Node */}
-                            <span className="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-obsidian border-2 border-white/60 z-20 flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)]">
-                                <span className="w-2 h-2 bg-white rounded-full shadow-[0_0_10px_white] animate-pulse" />
+                            <span className="absolute -left-[7px] top-0 w-4 h-4 rounded-full bg-obsidian border-2 border-white/60 z-20 flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)]">
+                                <span className="w-2 h-2 bg-white rounded-full shadow-[0_0_10px_white]" />
                             </span>
 
                             <div className="p-6 bg-gradient-to-br from-white/10 to-transparent rounded-r-xl border border-gold/20 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
